@@ -18,6 +18,7 @@ subfinder -nW -d $domain -rL $resolverFile -o subfinder_hackerone.txt
 
 amass enum -passive -d $domain -src -dir h1_amass -o output_h1.txt -rf $resolverFile
 
+screen -S nameScreen 
 
 
 
