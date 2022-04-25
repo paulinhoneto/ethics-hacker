@@ -31,7 +31,7 @@ amass enum -passive -d $domain -src -dir h1_amass -o output_h1.txt -rf $resolver
 
 screen -S nameScreen 
 
-directory = > /tools/results/
+directory = >  cd  /root/tools/results/
 
 
 
